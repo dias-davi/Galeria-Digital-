@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galeria Online</title>
+    <meta charset="utf-8">
+    <!-- Nomralize CSS-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+    <div id="container"> <!--Início container-->
+
+            <header> <!--início header-->
+                <div id="logo">
+                    <h1><a href="">Galeria Digital</a></h1>
+                </div>
+
+                <nav><!--início nav-->
+                    <ul>
+                        <li><a href="#index.html">Home</a></li>
+                        <li><a href="#historia.html">História da arte</a></li>
+                        <li><a href="#exposicoes.html">Exposições</a></li>
+                        <li><a href="#aprenda.html">Significado de obras famosas</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav> <!--Fim nav-->
+
+            </header><!--/fim header-->
+
+            <div id="principal"><!--inicio principal-->
+
+                <div id="conteudo">
+                    <section id="capa">
+                        <img src="img/museu.png">
+                    </section>
+
+                    <section id="postagens">
+
+                        <article id="video">
+                            <h3>Sobre a página</h3>
+                            <iframe width="340" height="210" src="https://www.youtube.com/embed/p3FjjbElRtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="objetivo">    
+                        <h3>Nosso objetivo</h3>
+                        <p>Nós somos uma organização sem fins lucrativos e
+                            nosso objetivo é conceder acesso para toda a população brasileira 
+                            ao conhecimento artístico relacionado às artes visuais, além de proporcionar
+                            oportunidades à artistas amadores para que exponham sua arte.
+                        </p>
+                        </article>
+
+                        <article id="exposicoes">
+                            <h3>Exposições mais visitadas da semana</h3>
+                            <ul>
+                                <li>
+                                    <a href="exposicoes.html">Mona Lisa de Leonardo da Vinci</a>
+                                </li><br>
+                                 <li>
+                                    <a href="exposicoes.html">O nascimento de Vênus de Sandro Botticelli</a>
+                                 </li><br>
+                                 <li>
+                                    <a href="exposicoes.html">Medusa de Caravaggio</a>
+                                 </li> <br>
+                                 <li>
+                                    <a href="exposicoes.html">Glitched landscapes de Giselle Beiguelman</a>
+                                </li> <br>
+                                <li>
+                                    <a href="exposicoes.html">Double King de Felix Colgrave</a>
+                                </li><br>
+                                <li>
+                                    <a href="exposicoes.html"><strong>Veja todos</strong></a>
+                                </li><br>
+                                
+                            </ul>
+                        </article>
+
+                        <article id="historia">
+                            <h3>História da arte</h3>
+                            <p>
+                                O conceito de artes visuais surgiu após a Segunda Guerra Mundial (1939 - 1945) 
+                                justamente para designar a percepção visual das formas de manifestações artísticas. 
+                                Todos os trabalhos artísticos visuais possuem um valor estético e uma criatividade 
+                                humana para serem consumidos através dos olhos. Entretanto A história da arte é vista 
+                                como uma área do conhecimento que aborda as diversas manifestações artísticas do ser 
+                                humano ao longo de sua trajetória no planeta. Podemos dizer que tais manifestações se 
+                                dão por meio da dança, música, teatro, artes visuais e outras expressões que têm a intenção 
+                                de transmitir emoções...
+                            </p> <br>
+                            <a href="historia.html"><strong>Leia mais</strong></a>
+                        </article>
+                        
+                    </section>
+
+                </div>
+
+                <aside>
+                    <section id="depoimento">
+                        <img src="img/depoimento.png">
+                    </section>
+
+                    <section id="visita"> <!--Início visita-->
+                       <h4>Exponha sua arte:</h4> 
+                       <form>
+
+                            E-mail: <input class="campo" type="email" name="e-mail" placeholder="digite seu e-mail aqui"><br><br>
+                            Senha: <input class="campo" type="password" name="senha" placeholder="Digite sua Senha"><br><br>
+                           <h4>Qual é seu tipo de arte?</h4> <br>
+                            <input class="arte" type="checkbox" name="arte1" value="bicicleta">Arte digital<br>
+                            <input class="arte" type="checkbox" name="arte2" value="carro">Arte tradicional<br>
+                            <input class="arte" type="checkbox" name="arte3" value="moto">Outro<br><br>
+                            <input class="botao" type="button" value="Cadastre-se">
+                       </form>
+                    </section> <!--fim visita-->
+
+                    <section id="galeria">
+                        <h4>Saiba mais sobre tipos de arte</h4>
+                        <a href="aprenda.html">
+                            <img src="img/imagem1.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="aprenda.html">
+                            <img src="img/imagem6.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="aprenda.html">
+                            <img src="img/imagem3.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="aprenda.html">
+                            <img src="img/imagem4.jpg" height="93" width="93">
+                        </a>
+                    </section>
+                </aside>
+
+                <footer>
+                    <p>
+                    <br> <a href="">Galeria Digital</a>- Todos os direitos reservados
+                    </p>
+                </footer>
+
+            </div><!---fim da principal-->
+          
+    </div><!--fim container-->
+
+</body>
+</html>
